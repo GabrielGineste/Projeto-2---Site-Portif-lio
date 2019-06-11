@@ -1,0 +1,61 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:  #2d3c49;
+}
+
+.subtitle {
+    color: #cccccc;
+}
+.card-content {
+    background-color: #141a20;
+}
+
+.is-size-5 {
+    color: #cccccc;
+}
+
+.content{
+    color: #cccccc;
+}
+  h1,h2,h4,h6 {
+      color: #cccccc;
+    }
+.minha_logo{
+    max-width: 56px;
+    max-height: 56px;
+    vertical-align: bottom;
+}
+
+@media (max-width: 652px){
+    .udacity-logo{
+        max-width: 36px;
+        max-height:36px;
+    }
+    h4{
+        font-size: 0.55rem;
+    }
+}
+hr{
+    margin-top: 1vh;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #7d97ad;
+}
+
+.card {
+  height: 100%;
+}
+
+.work {
+  flex: 1;
+}
+footer{
+    height: 100px;
+    color:#1f262c;
+}
+.footer-icon{
+    color:#1f262c;
+}
