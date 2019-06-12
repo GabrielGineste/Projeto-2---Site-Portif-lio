@@ -7,22 +7,28 @@ body{
 }
 
 .subtitle {
-    color: #cccccc;
+    color: #ccc;
 }
+
 .card-content {
     background-color: #141a20;
 }
 
 .is-size-5 {
-    color: #cccccc;
+    color: #ccc;
 }
 
 .content{
-    color: #cccccc;
+    color: #ccc;
 }
-  h1,h2,h4,h6 {
-      color: #cccccc;
-    }
+
+h1,
+h2,
+h4,
+h6 {
+    color: #ccc;
+}
+
 .minha_logo{
     max-width: 56px;
     max-height: 56px;
@@ -34,11 +40,13 @@ body{
         max-width: 36px;
         max-height:36px;
     }
+
     h4{
         font-size: 0.55rem;
     }
 }
-hr{
+
+hr {
     margin-top: 1vh;
     height: 1px;
     border: 0;
@@ -52,10 +60,12 @@ hr{
 .work {
   flex: 1;
 }
+
 footer{
     height: 100px;
     color:#1f262c;
 }
+
 .footer-icon{
     color:#1f262c;
 }
